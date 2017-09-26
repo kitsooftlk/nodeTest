@@ -1,5 +1,5 @@
 /* Hello World! program in Node.js */
-/*const http = require('http');
+const http = require('http');
 
 const hostname = '127.0.0.1';
 const port = 3000;
@@ -11,9 +11,9 @@ const server = http.createServer((req, res) => {
 });
  
 server.listen(port);
-console.log("END");*/
+console.log("END");
 
-var http = require('http');
+/*var http = require('http');
 
 var server = http.createServer(function(request, response) {
 
@@ -25,4 +25,4 @@ var server = http.createServer(function(request, response) {
 var port = process.env.PORT || 31000;
 server.listen(port);
 
-console.log("Server running at http://localhost:%d", port);
+console.log("Server running at http://localhost:%d", port);*/
